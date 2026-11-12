@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "type": "component",
+  "name": "sync",
+  "path": "/",
+  "image": {
+    "name": "",
+    "version": "latest"
+  },
+  "github": "https://github.com/athakwani/sync/tree/master",
+  "command": [],
+  "args": [],
+  "env": [],
+  "volumes": [],
+  "endpoints": [],
+  "labels": {}
+}

@@ -1,0 +1,60 @@
+{
+  "formatVersion": 2,
+  "stackId": "9b90fc59-bacd-4516-a7c4-f7cea836846f",
+  "stack": {
+    "name": "sync",
+    "description": "",
+    "isPrivate": false,
+    "router": {
+      "image": "caddy:2",
+      "command": "",
+      "args": [],
+      "environment": {},
+      "ports": [],
+      "volumes": [],
+      "secrets": []
+    },
+    "blocks": [
+      {
+        "image": "",
+        "command": "",
+        "args": [],
+        "environment": {},
+        "ports": [],
+        "volumes": [],
+        "secrets": [],
+        "id": "block-1794448351393",
+        "name": "sync",
+        "shortName": "sync",
+        "type": "component",
+        "repository": {
+          "host": "github.com",
+          "repositoryId": 68494317,
+          "owner": "athakwani",
+          "repo": "sync",
+          "branch": "master",
+          "connectedAt": "2026-11-12T01:52:31.393Z",
+          "autoSync": true
+        },
+        "children": [],
+        "networks": [],
+        "constraints": [],
+        "labels": {},
+        "createdAt": "2026-11-12T01:52:31.393Z",
+        "updatedAt": "2026-11-12T01:52:31.393Z"
+      }
+    ],
+    "github": {
+      "host": "github.com",
+      "repositoryId": 68494317,
+      "owner": "athakwani",
+      "repo": "sync",
+      "branch": "master",
+      "connectedAt": "2026-11-12T01:52:31.393Z",
+      "autoSync": true
+    },
+    "tags": [],
+    "category": "web",
+    "version": "1.0.0"
+  }
+}
