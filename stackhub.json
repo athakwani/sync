@@ -36,7 +36,28 @@
           "connectedAt": "2026-11-12T01:52:31.393Z",
           "autoSync": true
         },
-        "children": [],
+        "children": [
+          {
+            "image": "mysql",
+            "command": "",
+            "args": [],
+            "environment": {},
+            "ports": [],
+            "volumes": [],
+            "secrets": [],
+            "id": "block-f8550972-0632-421c-8bf5-df816314d748",
+            "name": "mysql",
+            "shortName": "mysql",
+            "type": "service",
+            "parentId": "block-1794448351393",
+            "children": [],
+            "networks": [],
+            "constraints": [],
+            "labels": {},
+            "createdAt": "2026-11-12T01:55:54.486Z",
+            "updatedAt": "2026-11-12T01:55:54.486Z"
+          }
+        ],
         "networks": [],
         "constraints": [],
         "labels": {},
@@ -55,6 +76,6 @@
     },
     "tags": [],
     "category": "web",
-    "version": "1.0.0"
+    "version": "1.0.1"
   }
 }
